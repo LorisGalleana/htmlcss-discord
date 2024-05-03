@@ -25,7 +25,7 @@ Eerie black: rgb(35, 39, 42)
  }
  .jumbo {
    background-image: url(../img/jumbo.png);
-   height: 125%;
+   height: 70%;
    background-size: cover;
    background-repeat: no-repeat;
  }
@@ -210,14 +210,7 @@ Eerie black: rgb(35, 39, 42)
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    border-bottom: 2px solid white;
     padding: 3%;
- }
- .link-area ul {
-   color: rgb(116, 139, 223);
-   list-style: none;
-   text-decoration: none;
-   line-height: 180%;
  }
  .final-section a {
    color: white;
@@ -226,7 +219,7 @@ Eerie black: rgb(35, 39, 42)
  }
  .language-area {
    color: rgb(116, 139, 223);
-    margin: 0 auto;
+    margin: 0 8%;
  }
  .language-area img {
    width: 10%;
@@ -248,39 +241,61 @@ Eerie black: rgb(35, 39, 42)
     width: 13%;
     font-weight: bold;
  }
+ .link-area ul {
+   color: rgb(116, 139, 223);
+   list-style: none;
+   text-decoration: none;
+   line-height: 180%;
+ }
+ /* BREAKING LINE */
+ .breaking-line {
+   width: 100%;
+   height: 8%;
+   background-color: rgb(35, 39, 42);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .violet-line {
+   background-color: rgb(112, 133, 193);
+   width: 80%;
+   height: 3%;
+
+ }
  /* LOGO IN BASSO */
- .row7 {
+ .ending-section {
     background-color: rgb(35, 39, 42);
-    height: 7%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
+    padding-bottom: 5%;
  }
- .col10 {
-    height: 70%;
-    width: 25%;
-    background-color: rgb(124, 242, 213);
+ .logo-down {
+    width: 40%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
  }
- .col10 button {
+ .logo-down button {
     padding: 0 8px;
     height: 40%;  
     border: 2px dotted black;
     background-color: rgb(255, 182, 193);
  }
- .col11 {
-    height: 70%;
-    width: 25%;
-    background-color: rgb(124, 242, 213);
+ .login-down {
+    width: 40%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    color: white;
+    font-weight: bold;
  }
- .col11 button {
-    padding: 0 8px;
-    height: 40%;
-    border: 2px dotted black;
-    background-color: rgb(255, 182, 193);    
+ .login-down .register {
+   background-color: rgb(142, 161, 225);
+   border-radius: 16px;
+   padding: 8px 12px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
  }
