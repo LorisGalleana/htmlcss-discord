@@ -61,6 +61,11 @@ Eerie black: rgb(35, 39, 42)
    display: flex;
    justify-content: center;
    align-items: center;
+   
+ }
+ .accesso a {
+  color: black;
+  text-decoration: none;
  }
  /* HEADER */
  .banner {
@@ -97,6 +102,10 @@ Eerie black: rgb(35, 39, 42)
    padding: 10px 20px;
    border-radius: 20px;
    margin: 0 3%;
+ }
+ .download a {
+  color: black;
+  text-decoration: none;
  }
  .banner-text .download::before {
    content: ' \27A1';
@@ -332,4 +341,11 @@ Eerie black: rgb(35, 39, 42)
 }
 .final-section a:hover{
   text-decoration: underline;
+}
+/* AGGIUNTO CAMBIAMENTO COLORE WHILE HOVERING */
+.accesso a:hover{
+  color: rgb(88, 101, 242);
+}
+.download a:hover {
+  color: rgb(88, 101, 242);
 }
