@@ -63,32 +63,32 @@ Eerie black: rgb(35, 39, 42)
    align-items: center;
  }
  /* HEADER */
- .row2 {
+ .banner {
     display: flex;
  }
- .col4 {
+ .banner-text {
     margin: auto;    
  }
- .col4 h1 {
+ .banner-text h1 {
    display: flex;
    justify-content: center;
    margin: 5%;
    font-size: 48px;
    color: white;
  }
- .col4 p {
+ .banner-text p {
    color: white;
    text-align: center;
    font-size: 24px;
    line-height: 150%;
  }
- .col4 .pulsanti {
+ .banner-text .pulsanti {
    margin-top: 4%;
    display: flex;
    justify-content: center;
    font-weight: bold;
  }
- .col4 .download {
+ .banner-text .download {
    display: flex;
    background-color: white;
    justify-content: center;
@@ -98,13 +98,13 @@ Eerie black: rgb(35, 39, 42)
    border-radius: 20px;
    margin: 0 3%;
  }
- .col4 .download::before {
+ .banner-text .download::before {
    content: ' \27A1';
    transform: rotate(90deg);
    -webkit-transform: rotate(90deg);
    margin-right: 5%;
  }
- .col4 .open-browser {
+ .banner-text .open-browser {
    display: flex;
    background-color: black;
    color: white;
