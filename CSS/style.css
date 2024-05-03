@@ -25,13 +25,12 @@ Eerie black: rgb(35, 39, 42)
  }
  .jumbo {
    background-image: url(../img/jumbo.png);
-   height: 65%;
+   height: 100%;
    background-size: cover;
    background-repeat: no-repeat;
  }
  /*LOGO IN ALTO */
  .row1 {
-    /* background-color: rgb(173, 216, 230) ; */
     height: 10%;
     width: 100%;
     display: flex;
@@ -45,7 +44,6 @@ Eerie black: rgb(35, 39, 42)
     border: 1px dashed;
  }
  .col1 {
-   /*  background-color:rgb(218, 165, 32); */
     display: flex;
     justify-content: flex-start;
     width: 20%;
@@ -54,7 +52,6 @@ Eerie black: rgb(35, 39, 42)
     margin-right: 35%;
  }
  .col2 {
-   /*  background-color:rgb(218, 165, 32); */
     display: flex;
     justify-content: center;
     width: 60%;
@@ -69,7 +66,6 @@ Eerie black: rgb(35, 39, 42)
     color: white;
 }
  .col3 {
-    /* background-color:rgb(218, 165, 32); */
     display: flex;
     justify-content: flex-end;
     width: 20%;
@@ -87,14 +83,9 @@ Eerie black: rgb(35, 39, 42)
  }
  /* HEADER */
  .row2 {
-   /*  background-color: rgb(0, 0, 139); */
-    height: 40%;
     display: flex;
  }
  .col4 {
-    width: 50%;
-    height: 80%;
-/*     background-color: rgb(238, 130, 238); */
     margin: auto;    
  }
 
@@ -110,7 +101,7 @@ Eerie black: rgb(35, 39, 42)
    color: white;
    text-align: center;
    font-size: 24px;
-   line-height: 130%;
+   line-height: 150%;
  }
 
  .col4 .pulsanti {
@@ -123,7 +114,9 @@ Eerie black: rgb(35, 39, 42)
  .col4 .download {
    display: flex;
    background-color: white;
-   width: 20%;
+   justify-content: center;
+   align-items: center;
+   width: 22%;
    padding: 10px 20px;
    border-radius: 20px;
    margin: 0 3%;
@@ -140,43 +133,51 @@ Eerie black: rgb(35, 39, 42)
    display: flex;
    background-color: black;
    color: white;
-   width: 27%;
+   justify-content: center;
+   align-items: center;
+   width: 30%;
    padding: 10px 20px;
    border-radius: 20px;
    margin: 0 3%;
  }
+ .col5 {
+   width: 55%;
+   display: flex;
+}
+.col6 {
+   width: 30%;
+}
+.col6 h1 {
+  margin-bottom: 5%;
+  font-size: 48px;
+}
+
+.col6 p {
+  font-size: 20px;
+  font-weight: 500;
+}
  /* PRIMA E TERZA SEZIONE */
  .row3 {
-    background-color: white;
-    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5% 0;
  }
- .col5 {
-    height: 80%;
-    width: 30%;
-    background-color: rgb(30, 144, 255);
- }
- .col6 {
-    height: 80%;
-    width: 20%;
-    /* background-color: rgb(253, 190, 195); */
- }
- .col6 h1 {
-   margin-bottom: 3%;
+ .row3 .col5 {
+   padding-bottom: 5%;
  }
 
- .col6 p {
-   font-size: 20px;
- }
  /* SECONDA SEZIONE */
  .row4 {
     background-color: rgb(211, 211, 211);
-    height: 50%;
+/*     height: 50%; */
     display: flex;
     justify-content: center;
     align-items: center;
+ }
+
+ .row4 . col6 {
+   padding-bottom: 5%;
  }
  /* QUARTA SEZIONE */
  .row5 {
