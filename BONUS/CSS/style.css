@@ -169,27 +169,6 @@ Eerie black: rgb(35, 39, 42)
     background-color: rgb(211, 211, 211);
     position: relative;
  }
- .big-tecno-section::after {
-   content: "";
-   position: absolute;
-   top: -4%; left: 0;
-   width: 150%; height: 6%;
-   background-image: url(../img/wavebrown.svg);
- }
- .voice-section::after {
-   content: "";
-   position: absolute;
-   top: -7%; left: 0;
-   width: 100%; height: 9%;
-   background-image: url(../img/wavebrown.svg);
- }
- .community-section::after {
-   content: "";
-   position: absolute;
-   top: -7%; left: 0;
-   width: 100%; height: 9%;
-   background-image: url(../img/wavewhite.svg);
- }
  .start-adventure {
    padding-bottom: 2%;
  }
@@ -240,7 +219,6 @@ Eerie black: rgb(35, 39, 42)
  .final-section a {
    color: white;
    text-decoration: none;
-   
  }
  .language-area {
    color: rgb(116, 139, 223);
@@ -324,3 +302,34 @@ Eerie black: rgb(35, 39, 42)
    align-items: center;
 
  }
+
+ /* AGGIUNTA WAVE */
+ .big-tecno-section::after {
+  content: "";
+  position: absolute;
+  top: -4%; left: 0;
+  width: 150%; height: 6%;
+  background-image: url(../img/wavebrown.svg);
+}
+.voice-section::after {
+  content: "";
+  position: absolute;
+  top: -7%; left: 0;
+  width: 100%; height: 9%;
+  background-image: url(../img/wavebrown.svg);
+}
+.community-section::after {
+  content: "";
+  position: absolute;
+  top: -7%; left: 0;
+  width: 100%; height: 9%;
+  background-image: url(../img/wavewhite.svg);
+}
+
+/* AGGIUNTA UNDERLINE WHILE HOVERING */
+.menu-nav a:hover{
+  text-decoration: underline;
+}
+.final-section a:hover{
+  text-decoration: underline;
+}
