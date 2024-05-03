@@ -115,43 +115,53 @@ Eerie black: rgb(35, 39, 42)
    border-radius: 20px;
    margin: 0 3%;
  }
- .col5 {
+ .image-area {
    width: 55%;
    display: flex;
 }
-.col6 {
+.text-area {
    width: 30%;
 }
-.col6 h1 {
+.text-area h1 {
   margin-bottom: 5%;
   font-size: 48px;
 }
-.col6 p {
+.text-area p {
   font-size: 20px;
   font-weight: 500;
 }
- /* PRIMA E TERZA SEZIONE */
- .row3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5% 0;
- }
- .row3 .col5 {
+ /* prima sezione row3 */
+.channel-section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 5% 0;
+}
+.channel-section .image-area {
    padding-bottom: 5%;
  }
- /* SECONDA SEZIONE */
- .row4 {
-    background-color: rgb(211, 211, 211);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5% 0;
- }
- .row4 .col6 {
+/* seconda sezione row4 */
+.voice-section {
+   background-color: rgb(211, 211, 211);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 5% 0;
+}
+.voice-section .text-area {
+  padding-bottom: 10%;
+}
+/* terza sezione row3 */
+.community-section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 5% 0;
+}
+.community-section .text-area {
    padding-bottom: 10%;
  }
- /* QUARTA SEZIONE */
+
  .row5 {
     background-color: rgb(211, 211, 211);
  }
