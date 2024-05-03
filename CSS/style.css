@@ -174,10 +174,11 @@ Eerie black: rgb(35, 39, 42)
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5% 0;
  }
 
- .row4 . col6 {
-   padding-bottom: 5%;
+ .row4 .col6 {
+   padding-bottom: 10%;
  }
  /* QUARTA SEZIONE */
  .row5 {
