@@ -30,33 +30,31 @@ Eerie black: rgb(35, 39, 42)
    background-repeat: no-repeat;
  }
  /*LOGO IN ALTO */
- .row1 {
-   
- }
- .container-row1 {
+
+ .container-nav {
     width: 50%;
     margin: auto;
     display: flex;
     justify-content: center;
  }
- .col1 {
+ .logo-up {
     padding: 5px;
     margin-right: 35%;
  }
- .col2 {
+ .menu-nav {
     display: flex;
     align-items: center;
     gap:20px;
 }
-.col2 a {
+.menu-nav a {
     text-decoration: none;
     color: white;
 }
- .col3 {
+ .login-up {
     padding: 5px;
     margin-left: 35%;
  }
- .col3 .accesso {
+ .login-up .accesso {
    background-color: white;
    border-radius: 16px;
    padding: 8px 12px;
@@ -227,9 +225,14 @@ Eerie black: rgb(35, 39, 42)
  }
  .col8 .lingua {
    color: white;
+   margin-bottom: 3%;
  }
  .col8 .lingua::after {
-   content: ' \02C5';   
+   content: ' \02C5';  
+   font-size: 12px; 
+ }
+ .col8 .fa-brands {
+   padding: 2%;
  }
  .col9 {
     width: 13%;
