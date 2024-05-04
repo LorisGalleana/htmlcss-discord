@@ -87,8 +87,79 @@
 .device-version {
     padding: 14px 32px;
 }
-
-
+.central-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.ios {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px;
+    max-height: 600px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 20px;
+    margin: 25% 0 5% 0;
+    overflow: hidden;
+}
+.linux {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px;
+    max-height: 600px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+.testing {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px;
+    max-height: 600px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 20px;
+    margin-bottom: 35%;
+}
+.android {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px;
+    max-height: 600px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 20px;
+    margin: 45% 0 5% 0;
+    overflow: hidden;
+}
+.mac {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px;
+    max-height: 600px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+.archives {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px;
+    max-height: 600px;
+    background-color: rgb(246, 246, 246);
+    border-radius: 20px;
+    margin-bottom: 15%;
+}
 
 
 
