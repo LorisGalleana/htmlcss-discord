@@ -241,13 +241,12 @@ Eerie black: rgb(35, 39, 42)
  }
  .link-area {
     width: 13%;
-    font-weight: bold;
  }
  .link-area ul {
    color: rgb(116, 139, 223);
    list-style: none;
    text-decoration: none;
-   line-height: 180%;
+   line-height: 200%;
  }
  /* BREAKING LINE */
  .breaking-line {
