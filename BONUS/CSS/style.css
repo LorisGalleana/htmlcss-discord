@@ -47,7 +47,7 @@ Eerie black: rgb(35, 39, 42)
     align-items: center;
     gap:20px;
 }
-.menu-nav a {
+.menu-nav a, .register a, .final-section a, .download-down a, .open-browser a{
     text-decoration: none;
     color: white;
 }
@@ -64,7 +64,7 @@ Eerie black: rgb(35, 39, 42)
    align-items: center;
    
  }
- .accesso a {
+ .accesso a,  .download a {
   color: black;
   text-decoration: none;
  }
@@ -103,10 +103,6 @@ Eerie black: rgb(35, 39, 42)
    padding: 10px 20px;
    border-radius: 20px;
    margin: 0 3%;
- }
- .download a {
-  color: black;
-  text-decoration: none;
  }
  .banner-text .download::before {
    content: ' \27A1';
@@ -200,7 +196,7 @@ Eerie black: rgb(35, 39, 42)
    background-image: url(../img/stars.svg);
    background-position: bottom;
  }
- .start-adventure .download {
+ .start-adventure .download-down {
    display: flex;
    background-color: rgb(142, 161, 225);
    color: white;
@@ -212,7 +208,7 @@ Eerie black: rgb(35, 39, 42)
    border-radius: 20px;
    margin: 2% auto;
  }
- .start-adventure .download::before {
+ .start-adventure .download-down::before {
    content: ' \27A1';
    transform: rotate(90deg);
    -webkit-transform: rotate(90deg);
@@ -225,10 +221,6 @@ Eerie black: rgb(35, 39, 42)
     justify-content: center;
     align-items: flex-start;
     padding: 3%;
- }
- .final-section a {
-   color: white;
-   text-decoration: none;
  }
  .language-area {
    color: rgb(116, 139, 223);
@@ -306,17 +298,15 @@ Eerie black: rgb(35, 39, 42)
     font-weight: bold;
  }
  .login-down .register {
-   background-color: rgb(142, 161, 225);
+   background-color: rgb(88, 101, 241);
    border-radius: 16px;
    padding: 8px 12px;
    display: flex;
    justify-content: center;
    align-items: center;
-
  }
-
  /* AGGIUNTA WAVE */
- .big-tecno-section::after {
+ .brown-wave::after {
   content: "";
   position: absolute;
   bottom: 100%;
@@ -326,17 +316,7 @@ Eerie black: rgb(35, 39, 42)
   background: url(../img/wavebrown.svg) bottom center;
   background-size: 150%;
 }
-.voice-section::after {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  height: 10%;
-  width: 100%;
-  background: url(../img/wavebrown.svg) bottom center;
-  background-size: 150%;
-}
-.community-section::after {
+.white-wave::after {
   content: "";
   position: absolute;
   bottom: 100%;
@@ -345,19 +325,73 @@ Eerie black: rgb(35, 39, 42)
   width: 100%;
   background: url(../img/wavewhite.svg) bottom center;
   background-size: 150%;
+  margin: -1px;
 }
-
 /* AGGIUNTA UNDERLINE WHILE HOVERING */
-.menu-nav a:hover{
-  text-decoration: underline;
-}
-.final-section a:hover{
+.reveal-underline a:hover {
   text-decoration: underline;
 }
 /* AGGIUNTO CAMBIAMENTO COLORE WHILE HOVERING */
-.accesso a:hover{
+.accesso a:hover, .download a:hover{
   color: rgb(88, 101, 242);
 }
-.download a:hover {
-  color: rgb(88, 101, 242);
+.login-down .register:hover {
+  background-color: rgb(114, 137, 216);
 }
+/* AGGIUNTO BOX-SHADOW */
+.big-shadow:hover {
+  box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, .2);
+}
+.small-shadow:hover {
+  box-shadow: 0px 8px 5px  rgba(0, 0, 0, .2);
+}
+
+
+/* DEBUG */
+/* .download a:hover {
+  color: rgb(88, 101, 242);
+} */
+/* .login-up:hover {
+  box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, .2);
+} */
+/* .open-browser:hover {
+  box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, .2);
+} */
+/* .voice-section::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  height: 10%;
+  width: 100%;
+  background: url(../img/wavebrown.svg) bottom center;
+  background-size: 150%;
+} */
+/*  .download a {
+  color: black;
+  text-decoration: none;
+ } */
+ /*  .download-down a {
+  color: white;
+  text-decoration: none;
+ } */
+ /*  .final-section a {
+   color: white;
+   text-decoration: none;
+ } */
+ /*  .register a {
+  color: white;
+  text-decoration: none;
+ } */
+ /* .final-section a:hover{
+  text-decoration: underline;
+} */
+/* .menu-nav a:hover {
+  text-decoration: underline;
+} */
+/* .final-section a:hover {
+  text-decoration: underline;
+} */
+/* .download:hover, .open-browser:hover, .login-up .accesso:hover {
+  box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, .2);
+} */
